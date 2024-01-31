@@ -1,0 +1,121 @@
+* {
+	margin: 0;
+	padding: 0;
+
+	font-family: "VT323", monospace;
+	font-weight: 800;
+	font-style: normal;
+}
+
+canvas {
+	width: 640px;
+	height: 320px;
+	border: 10px solid black;
+	margin: auto;
+	margin-top: 13px;
+	margin-bottom: 13px;
+	display: block;
+}
+
+body {
+	width: 720px;
+	margin: auto;
+	background-color: rgb(50, 50, 50);
+	margin-bottom: 40px;
+}
+
+body>h1 {
+	width: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin-top: 10px;
+	color: darkorange;
+	text-shadow: 2px 2px 0px black;
+}
+
+.chip8logo {
+	color: darkorange;
+	font-size: 30px;
+}
+
+p {
+	color: #878787;
+	text-shadow: 1px 1px 0px black;
+	margin: 10px auto 10px auto;
+}
+
+.textB {
+	text-align: center;
+}
+
+.textC {
+	width: 600px;
+	margin: auto;
+	margin-top: 20px;
+	text-align: center;
+	font-size: 28px;
+}
+
+.textC>h2 {
+	color: darkorange;
+	text-shadow: 2px 2px 0px black;
+}
+
+.textC>h3 {
+	color: darkgray;
+	text-shadow: 2px 2px 0px black;
+}
+
+.textB>input {
+	font-size: 28px;
+	text-align: center;
+}
+
+.logo {
+	font-family: monospace;
+	font-size: 16px;
+}
+
+.tyty {
+	text-align: center;
+	color: darkgray;
+	font-size: 30px;
+	text-shadow: 2px 2px 0px black;
+}
+
+a {
+	font-size: 23px;
+	text-decoration: none;
+	color: darkcyan;
+}
+
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: cyan;
+}
+
+li {
+	text-align: center;
+	list-style-type: none;
+	margin-top: 10px;
+}
+
+#fileInput {
+	color: transparent;
+	margin: auto;
+	width: 125px;
+}
+
+#fileContent {
+	font-size: 18px;
+	width: 620px;
+	display: block;
+	margin: 20px auto auto auto;
+	border: solid black 3px;
+	background-color: grey;
+}

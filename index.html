@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CHIP-8 By: Henry Andersson</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="styles.css" />
+	<script src="script.js" defer></script>
+
+</head>
+
+<body>
+	<h1>
+		<pre class="logo">
+ ██████╗██╗  ██╗██╗██████╗      █████╗ 
+██╔════╝██║  ██║██║██╔══██╗    ██╔══██╗
+██║     ███████║██║██████╔╝    ╚█████╔╝
+██║     ██╔══██║██║██╔═══╝     ██╔══██╗
+╚██████╗██║  ██║██║██║         ╚█████╔╝
+╚═════╝╚═╝  ╚═╝╚═╝╚═╝          ╚════╝
+</pre>
+		By: Henry Andersson
+	</h1>
+	<p class="tyty">
+		Many thanks to these resources:
+	<ul>
+		<li><a href="https://en.wikipedia.org/wiki/CHIP-8">CHIP-8 WIKI</a></li>
+		<li><a href="https://github.com/Timendus/chip8-test-suite">CHIP-8 test suite</a></li>
+		<li><a href="https://tobiasvl.github.io/blog/write-a-chip-8-emulator">CHIP-8 guide for the interpreter</a></li>
+		<li><a href="http://devernay.free.fr/hacks/chip8/C8TECH10.HTM">CHIP-8 dot list for all OPCODE</a></li>
+	</ul>
+	</p>
+	<canvas id="canvasMain" class="p5Canvas" width="640" height="320" style="width: 640; height: 320;"></canvas>
+
+	<div class="textB">
+		<input type="file" id="fileInput" />
+		<div id="fileContent"></div>
+	</div>
+
+	<div class="textC">
+		<h2>
+			What is CHIP-8?
+		</h2>
+		<p>
+			<span class="chip8logo">CHIP-8</span> is an interpreted programming language, developed by Joseph Weisbecker made
+			on his 1802 Microprocessor. It
+			was initially used on the COSMAC VIP and Telmac 1800 8-bit microcomputers in the mid-1970s. <span
+				class="chip8logo">CHIP-8</span> programs are
+			run on a <span class="chip8logo">CHIP-8</span> virtual machine.<br><br> It was made to allow video games to be
+			more easily programmed for these
+			computers. The simplicity of <span class="chip8logo">CHIP-8</span>, and its long history and popularity, has
+			ensured that <span class="chip8logo">CHIP-8</span> emulators and
+			programs are still being made to this day.
+		</p>
+		<h3>
+			How to run?
+		</h3>
+		<p>
+			Simply download a ROM file from somewhere and press the big button below the screen.
+		</p>
+		<h3>
+			Where to get ROMs?
+		</h3>
+		<p>
+			One popular place to get roms is <a href="https://johnearnest.github.io/chip8Archive/">CHIP-8 Archive</a>. A place
+			where people participate in Octojams.
+			<br>
+			<br>
+			You can of course just search for <span class="chip8logo">CHIP-8</span> ROMs in you favourite search engine.
+		</p>
+		<h3>
+			TODO:
+		</h3>
+		<p>
+			Sound is still left to be implemented. The sound timer is implemented. The problem is that i don't understand how
+			to play a souns in JS while a number is bigger than zero.
+		</p>
+	</div>
+
+</body>
+
+</html>
