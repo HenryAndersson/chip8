@@ -401,6 +401,7 @@ class Chip8Interpreter {
 								this.registers[b] = i & 0xff;
 								this.key_down = true;
 								this.key_up = false;
+								break;
 							}
 						}
 
